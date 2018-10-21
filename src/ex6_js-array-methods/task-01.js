@@ -26,5 +26,6 @@ function slice (array, begin, end) {
     } else {
         arrayf = array;
     };
+    return arrayf;
 };
 module.exports = slice;
