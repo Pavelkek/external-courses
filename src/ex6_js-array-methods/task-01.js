@@ -9,8 +9,8 @@ function slice (array, begin, end) {
                 arrayf.push(array[beginf]);
             };
         } else {
-            for (beginf;array.length+beginf>array.length+endf;beginf--){
-                arrayf.push(array[-beginf]);
+            for (beginf;array.length+endf>array.length+beginf;endf--){
+                arrayf.push(array[-endf]);
             };
         };
     } else if (arguments.length === 2){
