@@ -10,7 +10,7 @@ function slice (array, begin, end) {
             };
         } else {
             for (beginf;array.length+beginf>array.length+endf;beginf--){
-                arrayf.push(array[beginf]);
+                arrayf.push(array[-beginf]);
             };
         };
     } else if (arguments.length === 2){
@@ -19,8 +19,8 @@ function slice (array, begin, end) {
                 arrayf.push(array[beginf]);
             };
         } else {
-            for (beginf;array.length+beginf>=0;beginf--){
-                arrayf.push(array[beginf]);
+            for (beginf;array.length+beginf>0;beginf--){
+                arrayf.push(array[-beginf]);
             };
         };
     } else {
